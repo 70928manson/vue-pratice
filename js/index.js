@@ -20,7 +20,8 @@ const app = createApp({
                     const { token, expired } = res.data;
                     console.log(token, expired);
                     document.cookie = `hexToken=${token}; expires=${new Date(expired)};`;
-                    window.location = 'product.html';
+                    window.location = 'product.html';  //產品頁面
+
                 })
                 .catch((err) => {
                     alert(err.data.message);
