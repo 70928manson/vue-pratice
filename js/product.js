@@ -4,7 +4,7 @@ const app = createApp({
     data() {
         return {
             url: 'https://vue3-course-api.hexschool.io/v2',
-            api_Path: 'skps0102',
+            api_Path: 'manson972',
             products: [],
             itemTemp: {},
         }
